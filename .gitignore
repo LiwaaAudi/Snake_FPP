@@ -1,0 +1,17 @@
+# OSX #
+.DS_Store
+.vscode
+.idea
+
+# Byte-compiled / optimized / DLL files #
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django #
+*.log
+db.sqlite3
+media
+
+# Project exclude paths
+/venv/

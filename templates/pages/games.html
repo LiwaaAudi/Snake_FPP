@@ -1,0 +1,13 @@
+{% extends '_base.html' %}
+{% load static %}
+
+{% block title %}Games{% endblock title %}
+
+{% block content %}
+<h1>Check out our games</h1>
+    <ul>
+        <li><h3><a href="https://github.com/LiwaaAudi/Snake_FPP" target="_blank">Snake Game</a> </h3></li>
+        <li><h3><a href="{% url 'rps' %}">Rock Paper Scissors</a> </h3></li>
+        <li><h3><a href="{% url 'timer' %}">20 minutes game timer</a> </h3></li>
+    </ul>
+{% endblock content %}
