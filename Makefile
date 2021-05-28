@@ -33,5 +33,6 @@ server:
 	# Start server on 8000
 	python manage.py runserver
 .PHONY: play
+play:
 	# launch the game
 	python snake.py
