@@ -19,3 +19,15 @@ class RpsGameView(TemplateView):
 
 class TimerView(TemplateView):
     template_name = 'pages/timer.html'
+
+
+class ColorsView(TemplateView):
+    template_name = 'pages/colorsflipper.html'
+
+
+class ColorsHexView(TemplateView):
+    template_name = 'pages/colorsflipper_hex.html'
+
+
+class TestYRView(TemplateView):
+    template_name = 'pages/testyourreaction.html'
