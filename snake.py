@@ -24,7 +24,7 @@ sky_blue = (9, 75, 135)
 # Create the Screen
 width, height = 800, 600
 game_display = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Snake Game (First Programing Practice)")
+pygame.display.set_caption("Snake Game (Game Dev)")
 pygame.display.set_icon(gameIcon)
 
 smallText = pygame.font.SysFont("comicsansms", 20)
